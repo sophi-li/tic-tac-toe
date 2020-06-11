@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A game of tic tac toe built with JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophi-li/tic-tac-toe.git"
+  },
+  "author": "Sophia Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophi-li/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/sophi-li/tic-tac-toe#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}

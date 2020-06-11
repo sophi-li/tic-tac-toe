@@ -95,3 +95,5 @@ function handleRestart() {
   cells.forEach((i) => i.addEventListener('click', handleCellClick))
   restartBtn.addEventListener('click', handleRestart)
 })()
+
+module.exports = { gameState }
