@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.title,
+.game-status {
+  text-align: center;
+}
+
+.game-status {
+  font-size: 1.4rem;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.cells {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 100px;
+  font-size: 3rem;
+}
+
+.cell-0,
+.cell-1,
+.cell-2,
+.cell-3,
+.cell-4,
+.cell-5 {
+  border-bottom: 1px solid #333;
+  transition-timing-function: ease;
+}
+
+.cell-1,
+.cell-4,
+.cell-7 {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+#restart-btn {
+  padding: 0.5rem 1rem;
+  width: 9rem;
+  margin: 0 auto;
+}
